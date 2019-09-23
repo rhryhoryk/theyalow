@@ -41,10 +41,12 @@ header .logo__img-2 {
 }
 
 h1 {
-  margin-left: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
   text-transform: uppercase;
   align-self: center;
   color: #fff;
+  font-family: 'Lucida Sans';
   font-size: 41px;
   font-style: italic;
 }
@@ -111,6 +113,8 @@ h1 {
 }
 
 .main-menu__item a {
+  font-family: 'Segoe WP';
+  font-size: 17px;
   margin-left: 10px;
   color: #9b7d08;
 }
@@ -124,8 +128,8 @@ h1 {
   color: #fff;
 }
 
-.main-menu__item span {
-  margin-left: 5px;
+ .main-menu__item span {
+  margin-left: 2px;
 }
 
 .slider {
@@ -203,9 +207,11 @@ h1 {
 
 .slider p {
   /* align-self: center; */
-  padding-top: 75px;  
+  padding-top: 70px;
+  margin-right: 23px;  
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Asap';
   font-size: 63px;
   color: #fff;
 }
@@ -243,6 +249,12 @@ h1 {
   margin: 0 auto;
 }
 
+.icon-item--better-disign p {
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 0.5px;
+ }
+
 .icon-item--customise {
   padding-left: 20px;
   padding-top: 36px;
@@ -254,16 +266,11 @@ h1 {
   margin: 0 auto;
 }
 
-.icon-item--better-disign {
-  padding-right: 5px;
-  padding-top: 60px;
-}
-
-.icon-item--better-disign img {
-  display: block;
-  width: 110px;
-  margin: 0 auto;
-}
+.icon-item--customise p {
+  margin-top: 14px;
+  margin-left: 5px;
+  letter-spacing: 0.5px;
+ }
 
 .icon-item--free  {
   padding-right: 25px;
@@ -276,9 +283,14 @@ h1 {
   margin: 0 auto;
 }
 
-.icon-item p {
+.icon-item--free p {
   margin-top: 10px;
-  font-size: 27px;
+  margin-left: 9px;
+ }
+
+.icon-item p {
+  font-family: 'Segoe UI';
+  font-size: 27.05px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -286,23 +298,32 @@ h1 {
 /* ------------------------------------------------------block--section-one------------------------------------------------ */
 
 .block--section-one {
-  padding-top: 35px;
+  padding-top: 34px;
   padding-bottom: 20px;
   background-image: url('assets/img/background-s1.png');
   background-size: cover; 
 }
 
 .block--section-one h2 {
+  
+  margin-left: 2px;
   text-transform: uppercase;
+  font-family: 'PT Sans';
   font-size: 37px;
+  letter-spacing: 0.5px;
   color: #fff;
 }
 
 .block--section-one .box-container {
   height: 378px;
   justify-content: space-between;
-  margin-top: 32px;
+  margin-top: 26px;
   overflow-x: scroll;
+}
+
+.block--section-one p {
+  font-family: 'Segoe WP';
+  font-size: 29px;
 }
 
 .box-container video {
@@ -321,7 +342,7 @@ h1 {
   content: "";
   display: block;
   position: absolute;
-  top: 95px;
+  top: 90px;
   left: 130px;
   width: 62px;
   height: 62px;
@@ -340,7 +361,7 @@ h1 {
   width: 340px;
   height: 232px;
   background-color: #ec9e03;
-  padding: 30px;
+  padding: 12px 26px;
 } 
 
 .box {
@@ -363,12 +384,13 @@ h1 {
 .box--twitter span {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 11px;
+  font-family: 'Segoe WP';
   font-size: 25px;
   color: #fff;
 }
 
-.box--twitter img {
+.box--twitter .twitter-icon {
   margin-top: 20px;
   margin-left: 80px 
 }
@@ -384,6 +406,16 @@ h1 {
   background-color: transparent; 
 }
 
+.box__button--plus:first-of-type {
+  right: 15px;
+  bottom: 15px;
+ }
+
+ .box__button--plus:last-of-type {
+  right: 15px;
+  bottom: 15px;
+ }
+
 .box__button--plus:hover {
  cursor: pointer;
  transform: scale(1.5);
@@ -398,13 +430,19 @@ h1 {
 
 .box--date__day {
   display: block;
+  /* margin-top: -5px; */
+  /* margin-left: 30px; */
+  font-family: 'Segoe UI';
+  font-weight: bold;
   font-size: 51px;
   color: #fff;
 }
 
 .box--date__month {
   display: block;
+  margin-top: -15px;
   text-transform: uppercase;
+  font-family: 'Segoe UI';
   font-size: 21px;
   color: #b87025;
 }
@@ -426,8 +464,8 @@ h1 {
 /* -----------------------------------------------------------block--section-two------------------------------------- */
 
 .block--section-two {
-  padding-top: 40px;
-  padding-bottom: 95px;
+  padding-top: 35px;
+  padding-bottom: 80px;
   background-image: url('assets/img/background-s2.png');
   background-size: cover; 
   box-shadow: inset 0 -8px 5px -3px #212121;
@@ -436,7 +474,10 @@ h1 {
 .block--section-two h2 {
   text-transform: uppercase;
   text-align: center;
+  font-family: 'PT Sans';
+  font-weight: normal;
   font-size: 43px;
+  letter-spacing: 0.5px;
   color: #f5c506;
 }
 
@@ -467,8 +508,10 @@ h1 {
 }
 
 .block--section-two .stiker span {
-  margin: auto;
+  margin-top: 48px;
   text-transform: uppercase;
+  font-family: 'PT Sans';
+  font-size: 17px;
   color: #fff;
 }
 
@@ -478,13 +521,15 @@ h1 {
 }
 
 .block--section-two__list {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .block--section-two__list-item {
-  font-size: 22px;
   margin-left: 37px;
-  margin-top: 20px;
+  /* margin-top: 10px; */
+  font-family: 'Open Sans';
+  font-size: 22px;
+  color:#979795;
   list-style: none;
 }
 
@@ -517,8 +562,10 @@ footer .logo__img-2 {
 }
 
 footer h2 {
-  margin-left: 10px;
+  margin-left: 7px;
+  font-family: 'Lucida Sans';
   font-size: 29px;
+  font-style: italic;
   text-transform: uppercase;
   color: #fff;
   align-self: center;
