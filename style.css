@@ -138,13 +138,15 @@ h1 {
 /* ------------------------------------------------------block--section-one------------------------------------------------ */
 
 .block--section-one {
-  background-image: url('assets/img/background-s1.png');
-  background-size: cover; 
   padding-top: 40px;
   padding-bottom: 20px;
+  background-image: url('assets/img/background-s1.png');
+  background-size: cover; 
+  
 }
 
 .block--section-one h2 {
+  text-transform: uppercase;
   font-size: 37px;
   color: #fff;
 }
@@ -240,4 +242,74 @@ h1 {
 .box-container::-webkit-scrollbar-thumb {
   background: #ec9e03;
   border-radius: 20px;
+}
+
+/* -----------------------------------------------------------block--section-two------------------------------------- */
+
+.block--section-two {
+  padding-top: 48px;
+  padding-bottom: 100px;
+  background-image: url('assets/img/background-s2.png');
+  background-size: cover; 
+  box-shadow: inset 0 -8px 5px -3px #212121;
+}
+
+.block--section-two h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 43px;
+  color: #f5c506;
+}
+
+.block--section-two .box:first-of-type {
+  position: relative;
+  width: 600px;
+}
+
+.block--section-two .box:first-of-type img {
+  margin-left: 20px;
+}
+
+.block--section-two .box:first-of-type img:last-of-type {
+  margin-top: 110px;
+}
+
+.block--section-two .stiker {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background-color: #f5c505;
+}
+
+.block--section-two .stiker span {
+  margin: auto;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.block--section-two .box:last-of-type {
+  position: relative;
+  width: 400px;
+}
+
+.block--section-two__list {
+  padding-top: 45px;
+}
+
+.block--section-two__list-item {
+  font-size: 22px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.block--section-two__list-item::before {
+  content: "";
+  display: block;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
+  background-color: #f5c506;
+  border-radius: 50%;
 }
