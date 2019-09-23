@@ -134,3 +134,110 @@ h1 {
   margin-top: 20px;
   text-transform: uppercase;
 }
+
+/* ------------------------------------------------------block--section-one------------------------------------------------ */
+
+.block--section-one {
+  background-image: url('assets/img/background-s1.png');
+  background-size: cover; 
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.block--section-one h2 {
+  font-size: 37px;
+  color: #fff;
+}
+
+.box-container {
+  height: 378px;
+  justify-content: space-between;
+  margin-top: 40px;
+  overflow-x: scroll;
+}
+
+.block--section-one .box:first-of-type {
+  width: 340px;
+  height: 232px;
+  background-color: #ec9e03;
+  padding: 30px;
+} 
+
+.box {
+  position: relative;
+}
+
+.box p {
+  font-size: 29px;
+  color: #fff;
+}
+
+.box--twitter {
+  width: 330px;
+  height: 232px;
+  margin-left: 35px;
+  background-color: #ec9e03;
+  flex-shrink: 0;
+}
+
+.box--twitter span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.box--twitter img {
+  margin: auto;
+}
+
+.box__button--plus {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent; 
+}
+
+.box__button--plus:hover {
+ cursor: pointer;
+ transform: scale(1.5);
+}
+
+.box--date {
+  width: 112px;
+  height: 85px;
+  padding: 0 30px;
+  background-color: #ddb101;
+}
+
+.box--date__day {
+  display: block;
+  font-size: 51px;
+  color: #fff;
+}
+
+.box--date__month {
+  display: block;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #b87025;
+}
+
+.box-container::-webkit-scrollbar {
+  width: 15px;
+}
+
+.box-container::-webkit-scrollbar-track {
+  background: #f9e282;
+  border-radius: 20px;
+}
+
+.box-container::-webkit-scrollbar-thumb {
+  background: #ec9e03;
+  border-radius: 20px;
+}
