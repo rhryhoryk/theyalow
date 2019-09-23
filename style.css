@@ -198,10 +198,6 @@ h1 {
   display: none;
 }
 
-
-
-
-
 .slider p {
   /* align-self: center; */
   padding-top: 75px;  
@@ -218,14 +214,70 @@ h1 {
 /* -------------------------------------------------------block--icon-area------------------------------------------------ */
 
 .block--icon-area {
-  margin: 40px auto;
+  margin: 0 auto;
   justify-content: space-around;
   align-items: flex-end;
 }
 
+.icon-item {
+  width: 342px;
+  height: 213px;
+  border-right: 0.5px solid #d0d0d0;
+}
+
+.icon-item:first-of-type {
+  border-left: 0.5px solid #d0d0d0;
+}
+
+.icon-item--better-disign {
+  padding-right: 5px;
+  padding-top: 60px;
+}
+
+.icon-item--better-disign img {
+  display: block;
+  width: 110px;
+  margin: 0 auto;
+}
+
+.icon-item--customise {
+  padding-left: 20px;
+  padding-top: 36px;
+}
+
+.icon-item--customise img {
+  display: block;
+  width: 92px;
+  margin: 0 auto;
+}
+
+.icon-item--better-disign {
+  padding-right: 5px;
+  padding-top: 60px;
+}
+
+.icon-item--better-disign img {
+  display: block;
+  width: 110px;
+  margin: 0 auto;
+}
+
+.icon-item--free  {
+  padding-right: 25px;
+  padding-top: 52px;
+}
+
+.icon-item--free img {
+  display: block;
+  width: 82px;
+  margin: 0 auto;
+}
+
 .icon-item p {
-  margin-top: 20px;
+  margin-top: 10px;
+  font-size: 27px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 /* ------------------------------------------------------block--section-one------------------------------------------------ */
