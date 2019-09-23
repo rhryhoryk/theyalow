@@ -33,6 +33,9 @@ header {
 
 .logo__img-2 {
   position: absolute;
+}
+
+header .logo__img-2 {
   left: -2px;
   top: -4px;
 }
@@ -499,12 +502,18 @@ h1 {
 /* -----------------------------------------------------------footer------------------------------------------- */
 
 footer {
+  padding-top: 5px;
   background-color: #4c4c4c;
   background-size: cover; 
 }
 
-.logo--bottom {
-  width: 60px;
+footer .logo img {
+  width: 54px;
+}
+
+footer .logo__img-2 {
+  left: 0;
+  top: 0;
 }
 
 footer h2 {
