@@ -13,7 +13,7 @@
     <div class="wrapper">
       <header class="flex">
 
-        <div class="flex">
+        <div class="block--top--logo flex">
           <div class="logo">
             <img class="logo__img-1" src="assets/img/logo-l1.svg" alt="logo" >
             <img class="logo__img-2" src="assets/img/logo-l2.svg" alt="logo" >
@@ -50,15 +50,19 @@
       <button class="slider-button slider-button-left"><img src="assets/img/left-slider-arrow.svg" alt="left-slider-arrow"></button>
       <button class="slider-button slider-button-right"><img src="assets/img/right-slider-arrow.svg" alt="right-slider-arrow"></button>
       <div class="wrapper">
-        <div class="slide flex">
-          <video class="" src="#" poster="assets/img/placeholder-slider.png" width="550" height="327" controls></video> 
+        <div class="slide slide__desktop flex">
+          <video class="slider__desktop-video" src="#" poster="assets/img/placeholder-slider.png"  controls></video> 
           <p><span>the cool</span> <br>the minimal</p>
+        </div>
+        <div class="slide slide__mobile flex">
+          <video class="slider__mobile-video" src="#" poster="assets/img/placeholder-slider-mobile.png"  controls></video> 
         </div>
       </div>
     </div>
   </div>
 
-  <div class="block block--icon-area wrapper flex">
+  <div class="block block--icon-area">
+    <div class="wrapper flex">
     <div class="icon-item icon-item--better-disign">
       <img src="assets/img/better-disign-icon.svg" alt="better-disign-icon">
       <p>better disign</p>
@@ -71,6 +75,7 @@
       <img src="assets/img/its-free-icon.svg" alt="its-free-icon">
       <p>its free</p>
     </div>
+  </div>
   </div>
 
   <section class="block block--section-one">
@@ -101,6 +106,25 @@
         <div class="box--twitter"></div>
         <div class="box--twitter"></div>        
         <div class="box--twitter"></div>
+        </div>
+        </div>
+        <div class="box--twitter--mobile">
+          <div class="wrapper flex">
+          <div class="box--twitter--mobile--inner">
+            <img class="twitter-icon" src="assets/img/twitter-icon.svg" alt="twitter-icon">
+          </div>
+          <div class="box--twitter--mobile--inner">
+            <div class="twitt">
+              <p>Daily Mobile UI Design Insperation #1 via @cssauthor</p>
+            </div>
+            <div class="twitt">
+              <p>Daily Mobile UI Design Insperation #1 via @cssauthor</p>
+            </div>
+            <div class="twitt">
+              <p>Daily Mobile UI Design Insperation #1 via @cssauthor</p>
+            </div>
+            <form action=""><input type="text" name="tweet-msg" id="tweet-msg"><input type="submit" value="Tweet"></form>
+          </div>
       </div>
     </div>
   </section>
